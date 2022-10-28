@@ -4,11 +4,13 @@ metadata:
   name: nk-svc
   labels:
     app: myjavaapp 
+    version: 2.6.1
 spec:
   type: NodePort
   ports:
   - port: 8080
-    nodeport: 30001
+    NodePort: 30001
     protocol: TCP
   selector:
     app: myjavaapp
+    version: 2.6.1 
