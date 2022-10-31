@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: myjavaapp-container
-        image: nkdocker1/myjavaapp28oct:1
+        image: nkdocker1/myjavaapp28oct:2
         ports:
         - containerPort: 8080
 
